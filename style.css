@@ -1,0 +1,519 @@
+
+/*Importações de fontes */
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&family=Source+Code+Pro:ital,wght@0,300;0,700;0,900;1,300;1,500&display=swap');
+
+/*Anotações relevantes
+tentar aplicar um background por section */
+
+/* Configuração Gerais da pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+/*Configuração do HTML */ /*  ligado ao script do comportamento da pagina*/
+html{
+  scroll-behavior: smooth;
+}
+
+/*Configuração da barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: black;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #000000, #1C1C1C, #363636, #4F4F4F );
+  background-size: 100% 100%;
+  animation: cores 30s ease infinite;
+  border-radius: 25px;
+}
+
+
+/* configuração do body */
+
+body{
+  background: linear-gradient(63.13deg, #36374c  51.04%, #946275 51.05%);
+  
+}
+/*Set de menu */
+.cabeça{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), #946275 );
+    padding: 7px;
+    border-bottom: solid antiquewhite 0.3px;
+  
+}
+.topo-img{
+
+    height: 70px;
+
+}
+
+.menu{
+
+    display: flex;
+    gap: 32px;
+
+}
+ .item-menu{
+
+    font-family: 'Sarala', sans-serif;
+    color:antiquewhite;
+    font-weight: 400;
+    font-size: 18px;
+
+ }
+
+
+/* Configuração da tag Main */
+.main{
+    
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: 'Sarala', sans-serif;
+
+}
+
+/*Configurações da primeira section*/
+.one{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+     justify-content:center;
+     flex-direction: column;
+     margin-bottom: 700px;
+
+}
+
+/*Configurações da imagem principal e texto */
+.div{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+background-color: #6d616d;
+border-radius: 30px;
+padding: 70px;
+box-shadow: 5px 5px 5px  black;
+border-radius: 10px;
+margin-bottom: 40px;
+
+
+}
+
+/*Configurações da imagem principal  */
+.div img{
+    
+    display: flex;
+    align-items: center;
+     justify-content:center;
+     height: 50vh;
+}
+
+
+/*Configurações do texto */
+.div p {
+    margin-top: 40px;
+    font-family: 'Sarala', sans-serif;
+    color: #28282B;
+    font-weight: bold;
+    
+}
+
+/*Configurações da Section 2 */
+.two-2{
+
+  margin-bottom:1000px;
+  padding: 100px;
+  font-family: 'Sarala', sans-serif;
+
+}
+
+/*Configurações do conjunto de blocos das redes */
+.two{
+
+   /* margin-top: 8vh;
+    display: flex;
+  flex-direction: row;
+    align-items: stretch;
+  justify-content: center;*/
+    
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+   gap: 38px;
+   align-items: stretch;
+ justify-content: center;
+padding-right: 100px;
+padding-left: 100px;
+margin-bottom: 40px;
+
+}
+
+/*Configurações dos blocos de redes */
+.grid{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 350px;
+background-color:#28282B ;
+border-radius: 30px;
+padding: 40px;
+box-shadow: 5px 5px 5px  black;
+border-radius: 10px;
+
+}
+
+/*Configurações do titulo da section */
+.two-2 h1{
+  display: flex;
+  justify-content: center;
+ 
+
+}
+
+/*Configurações dos users do bloco */
+.grid h3 {
+
+
+  display: flex;
+  justify-content: center;
+  margin-top: 6px;
+
+}
+
+/*Configurações da ancora das redes */
+.redes{
+
+  font-family: 'Sarala', sans-serif;
+  font-weight: bold;
+color:  black;
+text-decoration: underline;
+}
+
+/*Configurações dos icones */
+.icons{
+
+   
+height: 70px;
+width: 70px;
+margin-bottom: 8px;
+
+
+
+/*Configurações dos icones dos blocos de habilidades */
+}
+.icons1{
+
+  height: 65px;
+  width: 65px;
+
+}
+
+/*Configurações da Section 3  */
+.three{
+
+
+    margin-bottom:1000px;
+    padding: 100px;
+    font-family: 'Sarala', sans-serif;
+}
+
+/*Configurações do grupo de blocos dos projetos */
+.all{
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+   gap: 38px;
+   align-items: stretch;
+ justify-content: center;
+padding-right: 100px;
+padding-left: 100px;
+margin-bottom: 40px;
+
+}
+
+/*Configurações de cada bloco */
+.one-a-one{
+  
+ text-align:center;
+width: 350px;
+background-color:#28282B ;
+border-radius: 30px;
+padding: 40px;
+box-shadow: 5px 5px 5px  black;
+border-radius: 10px;
+
+}
+
+/*Configurações do titulo da section dos projetos */
+.three h1{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+
+/*Configurações do fundo preto // tentar arrumar ela classe dependente*/
+.fundopreto{
+
+background-color:#28282B ;
+border-radius: 30px;
+padding: 40px;
+
+}
+
+/*Configurações da section 4 sobremim */
+.sobremim{
+
+display: flex;
+flex-direction: column;
+width: 50%;
+height: 100%;
+margin-bottom: 1000px;
+justify-content: center;
+align-items: center;
+padding: 70px;
+font-family: 'Sarala', sans-serif;
+  
+}
+
+/*Configurações do titulo da section sobremim */
+.sobremim h1{
+
+margin-bottom: 9px;
+
+}
+
+/*Configuração da div dos interesses*/
+.inter{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+ 
+  justify-content: center;
+  align-items: center;
+  padding: 70px;
+  font-family: 'Sarala', sans-serif;
+margin-top: 30px;
+
+
+
+}
+
+/*Configurações da section 5 habilidades */
+.habilidades{
+
+margin-top: 120px;
+display: flex;
+flex-direction: column;
+margin-bottom: 1000px;
+justify-content: center;
+align-items: center;
+margin-top: 55px;
+padding: 70px;
+font-family: 'Sarala', sans-serif;
+
+}
+
+/*Configurações dos widget de stats do github */
+.stats{
+
+margin-top: 60px;
+
+}
+
+/*Configurações dos blocos de habilidades  */
+.blocos{
+
+margin-top: 8vh;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 38px;
+align-items: stretch;
+justify-content: center;
+padding-right: 100px;
+padding-left: 100px;
+margin-bottom: 40px;
+
+}
+
+/* Configurações para div de habilidades extras*/
+.extras{
+
+margin-top: 120px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 55px;
+padding: 70px;
+font-family: 'Sarala', sans-serif;
+
+}
+
+/*Configurações do titulo do extras*/
+.extras h1{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Configurações dos blocos das habilidades extras*/
+.cards{
+
+  margin-top: 8vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 38px;
+  align-items: stretch;
+  justify-content: center;
+  padding-right: 100px;
+  padding-left: 100px;
+
+}
+
+/*Configurações de tamanho das setinhas */
+.arrow{
+
+height: 20px;
+width: 20px;
+
+}
+
+/*Configurações de tamanho da ultima seta */
+.arrow-up{
+
+  height: 15px;
+  width: 15px;
+  margin-left: 7px;
+
+}
+
+
+/* parte botao pulsante*/
+
+/*Botao de pular de pagina */
+.op{
+
+display: flex;
+justify-content: center;
+flex-direction:row ;
+-webkit-animation: pulsate-fwd 0.5s ease-in-out infinite both;
+	        animation: pulsate-fwd 0.5s ease-in-out infinite both;
+          font-family: 'Sarala', sans-serif;
+          font-weight: bold;
+          color: black;
+
+}
+
+/*Keyframes de animação do botão */
+@-webkit-keyframes op {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+/*Configuração adicionais dos botoes*/ /* Tentar arrumar essa tag dependente*/
+#op-tri{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: bold;
+  color: black;
+
+}
+
+
+/* hovers*/ 
+
+/*hover dos blocos de projeto */
+.one-a-one:hover{
+
+  transition: transform 100ms linear;
+  transform: scale(1.08);
+  background-color:#363636;
+
+}
+
+/* hover dos blocos de redes */
+.grid:hover{
+
+  transition: transform 100ms linear;
+  transform: scale(1.08);
+  background-color:#363636;
+
+} 
+
+/* hover da imagen pricipal 1 */
+.div img:hover{
+
+  transition: transform 100ms linear;
+  transform: scale(1.08);
+
+}
+
+/* hover dos links dos users das redes */
+.redes:hover{
+
+  transition: transform 100ms linear;
+  transform: scale(1.08);
+
+}
+
+
+
