@@ -41,8 +41,8 @@ html{
 /* configuração do body */
 
 body{
-  background: linear-gradient(63.13deg, #36374c  51.04%, #946275 51.05%);
-  
+  /*background: linear-gradient(63.13deg, #FFE259, #FFA751);*/
+  background: linear-gradient(63.13deg, #00416A, #E4E5E6);
 }
 /*Set de menu */
 .cabeça{
@@ -50,7 +50,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), #946275 );
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), #E4E5E6);
     padding: 7px;
     border-bottom: solid antiquewhite 0.3px;
   
@@ -92,7 +92,7 @@ font-family: 'Sarala', sans-serif;
 
 /*Configurações da primeira section*/
 .one{
-
+ 
     height: 100%;
     width: 100%;
     display: flex;
@@ -111,7 +111,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 margin-top: 100px;
-background-color: #6d616d;
+background: linear-gradient(63.13deg, #334D50, #CBCAA5);
+/*background-color: #;*/
 border-radius: 30px;
 padding: 70px;
 box-shadow: 5px 5px 5px  black;
@@ -142,7 +143,7 @@ margin-bottom: 40px;
 
 /*Configurações da Section 2 */
 .two-2{
-
+  
   margin-bottom:1000px;
   padding: 100px;
   font-family: 'Sarala', sans-serif;
@@ -178,7 +179,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 width: 350px;
-background-color:#28282B ;
+background: linear-gradient(63.13deg, #334D50, #CBCAA5);
 border-radius: 30px;
 padding: 40px;
 box-shadow: 5px 5px 5px  black;
@@ -261,7 +262,8 @@ margin-bottom: 40px;
   
  text-align:center;
 width: 350px;
-background-color:#28282B ;
+background: linear-gradient(63.13deg, #334D50, #CBCAA5);
+/*background-color:#28282B ;*/
 border-radius: 30px;
 padding: 40px;
 box-shadow: 5px 5px 5px  black;
@@ -281,7 +283,7 @@ border-radius: 10px;
 /*Configurações do fundo preto // tentar arrumar ela classe dependente*/
 .fundopreto{
 
-background-color:#28282B ;
+  background: linear-gradient(63.13deg, #334D50, #CBCAA5);
 border-radius: 30px;
 padding: 40px;
 
@@ -299,6 +301,7 @@ justify-content: center;
 align-items: center;
 padding: 70px;
 font-family: 'Sarala', sans-serif;
+
   
 }
 
@@ -321,6 +324,7 @@ margin-bottom: 9px;
   padding: 70px;
   font-family: 'Sarala', sans-serif;
 margin-top: 30px;
+
 
 
 
