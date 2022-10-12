@@ -523,7 +523,7 @@ flex-direction:row ;
 
 /*Responsividade para mobile*/
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 720px) {
   
   .cabeça{
     
