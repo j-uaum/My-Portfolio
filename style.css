@@ -523,4 +523,14 @@ flex-direction:row ;
 
 /*Responsividade para mobile*/
 
+@media screen and (min-width: 400px) {
+  
+  .cabeça{
+
+    display: flex;
+    flex-direction: column;
+
+
+  }
+}
 
