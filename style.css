@@ -527,14 +527,14 @@ flex-direction:row ;
   
   .cabeça{
     
-    display: flex;
+   
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3), #E4E5E6);
-    padding: 7px;
-    border-bottom: solid antiquewhite 0.3px;
+    
 
+  }
+  .menu{
+
+flex-direction: column;
 
   }
 }
