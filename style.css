@@ -523,18 +523,24 @@ flex-direction:row ;
 
 /*Responsividade para mobile*/
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 468px) {
   
   .cabeça{
     
-   
+   display: flex;
     flex-direction: column;
     
 
   }
-  nav{
 
+  .menu{
+display: flex;
   flex-direction: column;
+
+  }
+
+  .item-menu{
+
 
   }
 }
