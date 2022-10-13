@@ -43,6 +43,7 @@ html{
 body{
   /*background: linear-gradient(63.13deg, #FFE259, #FFA751);*/
   background: linear-gradient(63.13deg, #00416A, #E4E5E6);
+  
 }
 /*Set de menu */
 .cabeça{
@@ -528,7 +529,7 @@ flex-direction:row ;
  #corpo{
   display: block;
 align-items: center;
-width: ;
+
  }
 
   .cabeça{
@@ -545,9 +546,16 @@ display: flex;
 
   }
 
-  .item-menu{
+ .div{
+
+  height: 75%;
+    width: 75%;
+ }
+.div img{
+
+  height: 40vh;
+}
 
 
-  }
 }
 
